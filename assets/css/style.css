@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+   
 }
 
 header {
@@ -96,7 +97,41 @@ main {
     color: #555;
     margin-bottom: 10px;
 }
+.conclusion {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+}
 
+.conclusion h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.conclusion p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.section2{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.section2__cont{
+    width: 100%;
+    height: auto;
+}
+#ngnChart{
+    width: 100%;
+    height: 100%;
+}
 
 
 footer {
